@@ -22,8 +22,8 @@ unpublished DIDs.
 
 ## Examples
 
- * `did:example:WRfXPg8dantKVubE3HX8pw?initial-state=eyJkZWx0YV9oYXNoIjoiRWlDUlRKZ2Q0U0V2YUZDLW9fNUZjQnZJUkRtWF94Z3RLX3g`
- * `did:example:WRfXPg8dantKVubE3HX8pw?initial-state=eyJkZWx0YV9oYXNoIjoiRWlDUlRKZ2Q0U0V2YUZDLW9fNUZjQnZJUkRtWF94Z3RLX3g#keys-1`
+ * `did:example:123?initial-state=eyJkZWx0YV9oYXNoIjoiRWlDUlRKZ2Q0U0V2YUZDLW9fNUZjQnZJUkRtWF94Z3RLX3g...`
+ * `did:example:123?initial-state=eyJkZWx0YV9oYXNoIjoiRWlDUlRKZ2Q0U0V2YUZDLW9fNUZjQnZJUkRtWF94Z3RLX3g...#keys-1`
 
 ## Interaction with other DID Parameters
 

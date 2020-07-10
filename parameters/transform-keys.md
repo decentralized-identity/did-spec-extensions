@@ -19,9 +19,9 @@ TODO
 
 ## Examples
 
- * `did:example:WRfXPg8dantKVubE3HX8pw?transform-keys=jwk`
- * `did:example:WRfXPg8dantKVubE3HX8pw?transform-keys=jwks`
- * `did:example:WRfXPg8dantKVubE3HX8pw?transform-keys=jwk#keys-1`
+ * `did:example:123?transform-keys=jwk`
+ * `did:example:123?transform-keys=jwks`
+ * `did:example:123?transform-keys=jwk#keys-1`
 
 To get a DID resolution result with public keys transformed to JWK (use **transform-keys=jwk**):
 
