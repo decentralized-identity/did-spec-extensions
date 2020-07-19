@@ -1,0 +1,16 @@
+{
+  "name": "signed-patch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Orie Steele",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fast-json-patch": "^3.0.0-1",
+    "jest": "^26.1.0",
+    "jose": "^1.27.2"
+  }
+}
