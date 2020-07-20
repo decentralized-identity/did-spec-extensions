@@ -41,6 +41,30 @@ curl -H "Accept: application/did+ld+json" -X GET "https://uniresolver.io/1.0/ide
 curl -H "Accept: application/did+ld+json" -X GET "https://uniresolver.io/1.0/identifiers/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6;transform-keys=jwk"
 ```
 
+Example DID document with public keys transformed to JWK:
+
+```
+{
+  "@context" : "https://www.w3.org/2019/did/v1",
+  "id" : "did:sov:WRfXPg8dantKVubE3HX8pw",
+  "authentication" : [ {
+    "type" : "Ed25519SignatureAuthentication2018",
+    "publicKey" : [ "did:sov:WRfXPg8dantKVubE3HX8pw#key-1" ]
+  } ],
+  "publicKey" : [ {
+    "id" : "did:sov:WRfXPg8dantKVubE3HX8pw#key-1",
+    "type" : "Ed25519VerificationKey2018",
+    "publicKeyBase58" : "H3C2AVvLMv6gmMNam3uVAjZpfkcJCwDwnZn6z3wXmqPV",
+    "publicKeyJwk" : {
+      "crv" : "Ed25519",
+      "kid" : "did:sov:WRfXPg8dantKVubE3HX8pw#key-1",
+      "kty" : "OKP",
+      "x" : "7kqc5NnojHJHZ11Ec5cGCLMIKgJVDBKhrAbu9YrfVFg"
+    }
+  } ]
+}
+```
+
 To get a JWK Set (use **transform-keys=jwks**):
 
 ```
