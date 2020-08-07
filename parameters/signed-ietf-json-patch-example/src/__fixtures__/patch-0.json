@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/publicKey/1",
+    "value": {
+      "id": "#4SZ-StXrp5Yd4_4rxHVTCYTHyt4zyPfN1fIuYsm6k3A",
+      "type": "JsonWebKey2020",
+      "controller": "did:key:z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "x": "Z4Y3NNOxv0J6tCgqOBFnHnaZhJF6LdulT7z8A-2D5_8",
+        "y": "i5a2NtJoUKXkLm6q8nOEu9WOkso1Ag6FTUT6k_LMnGk",
+        "kty": "EC",
+        "kid": "4SZ-StXrp5Yd4_4rxHVTCYTHyt4zyPfN1fIuYsm6k3A"
+      }
+    }
+  }
+]

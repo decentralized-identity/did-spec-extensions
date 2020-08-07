@@ -1,0 +1,37 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      {
+        "@base": "did:key:z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS"
+      }
+    ],
+    "id": "did:key:z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS",
+    "publicKey": [
+      {
+        "id": "#z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS",
+        "type": "Ed25519VerificationKey2018",
+        "controller": "did:key:z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS",
+        "publicKeyBase58": "8z9KxsM8btfVmjx1FH7DJfaxZiygKVQU5RmiUTA2CTz4"
+      }
+    ],
+    "authentication": [
+      "#z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS"
+    ],
+    "assertionMethod": [
+      "#z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS"
+    ],
+    "capabilityDelegation": [
+      "#z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS"
+    ],
+    "capabilityInvocation": [
+      "#z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS"
+    ],
+    "keyAgreement": [
+      {
+        "id": "#z6LSnpjbfVPqWNsk4pgx5drYACGCkMzjJWJhpT2KuygXRuCv",
+        "type": "X25519KeyAgreementKey2019",
+        "controller": "did:key:z6MknSQNZ7bZwS9xtEnhvr549m8xPJFXjNepmSgeJj837gmS",
+        "publicKeyBase58": "C9ZS9BayQv9zySKBYzLaqc3iuDTcbu8YwUJeRX2ziXSA"
+      }
+    ]
+  }
