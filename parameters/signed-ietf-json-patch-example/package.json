@@ -11,6 +11,6 @@
   "dependencies": {
     "fast-json-patch": "^3.0.0-1",
     "jest": "^26.1.0",
-    "jose": "^1.27.2"
+    "jose": "^1.28.1"
   }
 }
