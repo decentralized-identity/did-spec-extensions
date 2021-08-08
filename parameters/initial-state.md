@@ -1,4 +1,4 @@
-# Extension DID Parameter: initial-state
+# Extension DID Parameter: initialState
 
 This specification defines a new DID parameter, to be included in the [DID Spec Registries](https://w3c.github.io/did-spec-registries/).
 
@@ -8,7 +8,7 @@ Work-in-progress
 
 ## Syntax
 
-The parameter name is `initial-state`. The range of possible values is method-specific and MUST be defined
+The parameter name is `initialState`. The range of possible values is method-specific and MUST be defined
 by the applicable DID method specification.
 
 ## Definition
@@ -22,8 +22,8 @@ unpublished DIDs.
 
 ## Examples
 
- * `did:example:123?initial-state=eyJkZWx0YV9oYXNoIjoiRWlDUlRKZ2Q0U0V2YUZDLW9fNUZjQnZJUkRtWF94Z3RLX3g...`
- * `did:example:123?initial-state=eyJkZWx0YV9oYXNoIjoiRWlDUlRKZ2Q0U0V2YUZDLW9fNUZjQnZJUkRtWF94Z3RLX3g...#keys-1`
+ * `did:example:123?initialState=eyJkZWx0YV9oYXNoIjoiRWlDUlRKZ2Q0U0V2YUZDLW9fNUZjQnZJUkRtWF94Z3RLX3g...`
+ * `did:example:123?initialState=eyJkZWx0YV9oYXNoIjoiRWlDUlRKZ2Q0U0V2YUZDLW9fNUZjQnZJUkRtWF94Z3RLX3g...#keys-1`
 
 ## Interaction with other DID Parameters
 
