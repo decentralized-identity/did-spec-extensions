@@ -1,4 +1,4 @@
-# Extension DID Parameter: signed-ietf-json-patch
+# Extension DID Parameter: signedIetfJsonPatch
 
 This specification defines a new DID parameter, to be included in the [DID Spec Registries](https://w3c.github.io/did-spec-registries/).
 
@@ -8,7 +8,7 @@ Work-in-progress
 
 ## Syntax
 
-The parameter name is `signed-ietf-json-patch`. The value is always a JWS of the following decoded form:
+The parameter name is `signedIetfJsonPatch`. The value is always a JWS of the following decoded form:
 
 ```json
 {
@@ -39,7 +39,7 @@ The parameter name is `signed-ietf-json-patch`. The value is always a JWS of the
 
 ## Definition
 
-The purpose of `signed-ietf-json-patch` is to enable any DID controller to propose changes to a DID Document by constructing a DID URI.
+The purpose of `signedIetfJsonPatch` is to enable any DID controller to propose changes to a DID Document by constructing a DID URI.
 
 In order to verify that the changes are from the controller, the receiver of the DID URI MUST perform the following steps:
 
@@ -60,7 +60,7 @@ If JWS verification suceeds, the receiver MUST compute the propsed changes as fo
 
 ## Examples
 
-- `did:example:123?signed-ietf-json-patch=eyJraWQiOiJkaWQ6ZXhhbXBsZTo0NTYjX1FxMFVMMkZxNjUxUTBGamQ2VHZuWUUtZmFIaU9wUmxQVlFjWV8tdEE0QSIsImFsZyI6IkVkRFNBIn0.eyJpZXRmLWpzb24tcGF0Y2giOlt7Im9wIjoiYWRkIiwicGF0aCI6Ii9wdWJsaWNLZXkvMSIsInZhbHVlIjp7ImlkIjoiIzRTWi1TdFhycDVZZDRfNHJ4SFZUQ1lUSHl0NHp5UGZOMWZJdVlzbTZrM0EiLCJ0eXBlIjoiSnNvbldlYktleTIwMjAiLCJjb250cm9sbGVyIjoiZGlkOmtleTp6Nk1rblNRTlo3Ylp3Uzl4dEVuaHZyNTQ5bTh4UEpGWGpOZXBtU2dlSmo4MzdnbVMiLCJwdWJsaWNLZXlKd2siOnsiY3J2Ijoic2VjcDI1NmsxIiwieCI6Ilo0WTNOTk94djBKNnRDZ3FPQkZuSG5hWmhKRjZMZHVsVDd6OEEtMkQ1XzgiLCJ5IjoiaTVhMk50Sm9VS1hrTG02cThuT0V1OVdPa3NvMUFnNkZUVVQ2a19MTW5HayIsImt0eSI6IkVDIiwia2lkIjoiNFNaLVN0WHJwNVlkNF80cnhIVlRDWVRIeXQ0enlQZk4xZkl1WXNtNmszQSJ9fX1dfQ.OgW0DB8SCVSBrSPA4yXcXLH8tcZcC5SbrqKye0qEWytC3gmA7mLU9BrZzT7IWv0S3KNo8Ftkn5X1l8w7TPsQAw`
+- `did:example:123?signedIetfJsonPatch=eyJraWQiOiJkaWQ6ZXhhbXBsZTo0NTYjX1FxMFVMMkZxNjUxUTBGamQ2VHZuWUUtZmFIaU9wUmxQVlFjWV8tdEE0QSIsImFsZyI6IkVkRFNBIn0.eyJpZXRmLWpzb24tcGF0Y2giOlt7Im9wIjoiYWRkIiwicGF0aCI6Ii9wdWJsaWNLZXkvMSIsInZhbHVlIjp7ImlkIjoiIzRTWi1TdFhycDVZZDRfNHJ4SFZUQ1lUSHl0NHp5UGZOMWZJdVlzbTZrM0EiLCJ0eXBlIjoiSnNvbldlYktleTIwMjAiLCJjb250cm9sbGVyIjoiZGlkOmtleTp6Nk1rblNRTlo3Ylp3Uzl4dEVuaHZyNTQ5bTh4UEpGWGpOZXBtU2dlSmo4MzdnbVMiLCJwdWJsaWNLZXlKd2siOnsiY3J2Ijoic2VjcDI1NmsxIiwieCI6Ilo0WTNOTk94djBKNnRDZ3FPQkZuSG5hWmhKRjZMZHVsVDd6OEEtMkQ1XzgiLCJ5IjoiaTVhMk50Sm9VS1hrTG02cThuT0V1OVdPa3NvMUFnNkZUVVQ2a19MTW5HayIsImt0eSI6IkVDIiwia2lkIjoiNFNaLVN0WHJwNVlkNF80cnhIVlRDWVRIeXQ0enlQZk4xZkl1WXNtNmszQSJ9fX1dfQ.OgW0DB8SCVSBrSPA4yXcXLH8tcZcC5SbrqKye0qEWytC3gmA7mLU9BrZzT7IWv0S3KNo8Ftkn5X1l8w7TPsQAw`
 
 ## Use Cases
 
@@ -72,15 +72,15 @@ If JWS verification suceeds, the receiver MUST compute the propsed changes as fo
 
 #### [initial-state](https://github.com/decentralized-identity/did-spec-extensions/blob/master/parameters/initial-state.md)
 
-Unlike `initial-state` the format of `signed-ietf-json-patch` is always the same, and is NOT DID Method specific.
+Unlike `initial-state` the format of `signedIetfJsonPatch` is always the same, and is NOT DID Method specific.
 
-When `initial-state` is present, it is processed first by the DID Method Resolver, so `signed-ietf-json-patch` and `initial-state` MAY be present in the same DID URI.
+When `initial-state` is present, it is processed first by the DID Method Resolver, so `signedIetfJsonPatch` and `initial-state` MAY be present in the same DID URI.
 
 #### KERI / DID Peer / DID Key / Sidetree Methods
 
 Some DID Methods have identifiers which can be used to deterministically generate a did document, others rely on DID Parameters like `initial-state` to achieve the same.
-`signed-ietf-json-patch` can be used to provide an authenticable augmentation of this deterministic DID Document, however, these transformed DID documents are not the same as the result of performing an Update Operation in the underlying DID Method.
-In the case that a DID Method encodes Update Operations into DID Parameters, those updates MUST be applied before `signed-ietf-json-patch`.
+`signedIetfJsonPatch` can be used to provide an authenticable augmentation of this deterministic DID Document, however, these transformed DID documents are not the same as the result of performing an Update Operation in the underlying DID Method.
+In the case that a DID Method encodes Update Operations into DID Parameters, those updates MUST be applied before `signedIetfJsonPatch`.
 
 ## Related Resources
 
