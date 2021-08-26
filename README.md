@@ -9,10 +9,10 @@ which is a document maintained by the W3C DID Working Group.
 
 ## Extension Parameters
 
- * [initial-state](parameters/initial-state.md)
- * [transform-keys](parameters/transform-keys.md)
- * [derivation-scheme, derivation-value](parameters/derivation-scheme-derivation-value.md)
- * [signed-ietf-json-patch](parameters/signed-ietf-json-patch.md)
+ * [initialState](parameters/initial-state.md)
+ * [transformKeys](parameters/transform-keys.md)
+ * [derivationScheme, derivationValue](parameters/derivation-scheme-derivation-value.md)
+ * [signedIetfJsonPatch](parameters/signed-ietf-json-patch.md)
  * (add here)
 
 ## Extension Values
