@@ -8,7 +8,7 @@ Work-in-progress
 
 ## Syntax
 
-The parameter name is `transformKeys`. Possibles values are the names of any verification method type (see [DID Spec Registries](https://w3c.github.io/did-spec-registries/#verification-method-types) for a list), as well as the special values `jwk` and `jwks`.
+The parameter name is `transformKeys`. Possibles values are any verification method type (see [DID Spec Registries](https://w3c.github.io/did-spec-registries/#verification-method-types) for a list), as well as the special values `jwk` and `jwks`.
 
 ## Definition
 
