@@ -24,14 +24,10 @@ TODO
  * `did:example:123?transformKeys=jwks`
  * `did:example:123?transformKeys=jwk#keys-1`
 
-To get a DID resolution result with verification methods transformed to JWK (use **transformKeys=jwk**):
+To get a DID document with verification methods transformed to JsonWebKey2020:
 
 ```
-curl -X GET "https://uniresolver.io/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw?transformKeys=JsonWebKey2020"
-curl -X GET "https://uniresolver.io/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw?transformKeys=jwk"
-curl -X GET "https://uniresolver.io/1.0/identifiers/did:btcr:xz35-jznz-q6mr-7q6?transformKeys=jwk"
-curl -X GET "https://uniresolver.io/1.0/identifiers/did:ethr:0xE6Fe788d8ca214A080b0f6aC7F48480b2AEfa9a6?transformKeys=jwk"
-curl -X GET "https://uniresolver.io/1.0/identifiers/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6?transformKeys=jwk"
+curl -H "Accept: application/did+ld+json" -X GET "https://uniresolver.io/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw?transformKeys=JsonWebKey2020"
 ```
 
 Example DID document with verification methods transformed to `JsonWebKey2020`:
