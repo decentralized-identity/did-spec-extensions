@@ -24,13 +24,13 @@ TODO
  * `did:example:123?transformKeys=jwks`
  * `did:example:123?transformKeys=jwk#keys-1`
 
-To get a DID document with verification methods transformed to JsonWebKey2020:
+To get a DID document with verification methods transformed to **JsonWebKey2020**:
 
 ```
 curl -H "Accept: application/did+ld+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw?transformKeys=JsonWebKey2020"
 ```
 
-Example DID document with verification methods transformed to `JsonWebKey2020`:
+Example DID document with verification methods transformed to **JsonWebKey2020**:
 
 ```
 {
@@ -75,21 +75,11 @@ Example DID document with verification methods transformed to `JsonWebKey2020`:
 }
 ```
 
-To get a JWK (use **transformKeys=jwk** and Accept header):
-
-```
-curl -H "Accept: application/jwk+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw?transformKeys=jwk"
-curl -H "Accept: application/jwk+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:btcr:xz35-jznz-q6mr-7q6?transformKeys=jwk"
-curl -H "Accept: application/jwk+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:ethr:0xE6Fe788d8ca214A080b0f6aC7F48480b2AEfa9a6?transformKeys=jwk"
-curl -H "Accept: application/jwk+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6?transformKeys=jwk"
-```
-
 To get a JWK Set (use **transformKeys=jwks** and Accept header):
 
 ```
 curl -H "Accept: application/jwk-set+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw?transformKeys=jwks"
-curl -H "Accept: application/jwk-set+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:btcr:xz35-jznz-q6mr-7q6?transformKeys=jwks"
-curl -H "Accept: application/jwk-set+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:ethr:0xE6Fe788d8ca214A080b0f6aC7F48480b2AEfa9a6?transformKeys=jwks"
+curl -H "Accept: application/jwk-set+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:ion:EiClkZMDxPKqC9c-umQfTkR8vvZ9JPhl_xLDI9Nfk38w5w?transformKeys=jwks"
 curl -H "Accept: application/jwk-set+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6?transformKeys=jwks"
 ```
 
