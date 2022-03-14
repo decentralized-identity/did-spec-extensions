@@ -1,3 +1,3 @@
-Extension properties for the DID Spec Registries.
+Extension errors for the DID Spec Registries.
 
 See https://github.com/decentralized-identity/did-spec-extensions/ for more information.
