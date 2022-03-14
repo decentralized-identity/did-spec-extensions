@@ -1,4 +1,4 @@
-# Extension Error Code: `notAllowedVerificationMethodType`
+# Extension Error Code: `notAllowedKeyType`
 
 This specification defines a new error code, to be included in the [DID Spec Registries](https://w3c.github.io/did-spec-registries/).
 
@@ -8,12 +8,12 @@ Work-in-progress
 
 ## Syntax
 
-The error code is `notAllowedVerificationMethodType`.
+The error code is `notAllowedKeyType`.
 
 ## Definition
 
 This DID Resolution error code is used to indicate that a security policy has been triggered, and the DID document
-contains a verification method with a type that is not allowed.
+contains a key type that is not allowed.
 
 The DID Resolution Metadata MAY include additional information about why the security policy has been triggered.
 
@@ -24,13 +24,13 @@ The DID Resolution Metadata MAY include additional information about why the sec
 	"@context": "https://w3id.org/did-resolution/v1",
 	"didDocument": null,
 	"didResolutionMetadata": {
-		"error": "notAllowedVerificationMethodType"
+		"error": "notAllowedKeyType"
 	},
 	"didDocumentMetadata": {}
 }
 ```
 
-# DID Resolution Option: `overrideVerificationMethodTypePolicy`
+# DID Resolution Option: `overrideKeyTypePolicy`
 
 This specification also defines a new DID Resolution Option.
 
@@ -40,7 +40,7 @@ This DID Resolution Option can be used by a client to override the behavior of t
 
 Possible values:
 
-* `error`: A DID Resolution Result with error `notAllowedVerificationMethodType` is returned if the security policy is triggered.
+* `error`: A DID Resolution Result with error `notAllowedKeyType` is returned if the security policy is triggered.
 * `warn`: A normal DID Resolution Result is returned, but a warning is included in the `didResolutionMetadata` field.
 * `ignore`: The security policy is ignored, and a normal DID Resolution Result is returned.
 

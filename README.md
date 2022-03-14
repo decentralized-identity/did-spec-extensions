@@ -11,16 +11,6 @@ which is a document maintained by the W3C DID Working Group.
 
 * (add here)
 
-## Extension Resolution Options
-
-* [overrideVerificationMethodTypePolicy](resolution-options/override-verification-method-type-policy.md)
-* [overrideKeyTypePolicy](resolution-options/override-key-type-policy.md)
-* [overrideMethodPolicy](resolution-options/override-method-policy.md)
-* [overrideUntrustedCaPolicy](resolution-options/override-untrusted-ca-policy.md)
-* [overrideLocalDuplicateKeyPolicy](resolution-options/override-local-duplicate-key-policy.md)
-* [overrideLocalDerivedKeyPolicy](resolution-options/override-local-derived-key-policy.md)
-* [overrideGlobalDuplicateKeyPolicy](resolution-options/override-global-duplicate-key-policy.md)
-
 ## Extension Parameters
 
  * [initialState](parameters/initial-state.md)
@@ -42,6 +32,16 @@ which is a document maintained by the W3C DID Working Group.
 * [notAllowedLocalDuplicateKey](error-codes/not-allowed-local-duplicate-key.md)
 * [notAllowedLocalDerivedKey](error-codes/not-allowed-local-derived-key.md)
 * [notAllowedGlobalDuplicateKey](error-codes/not-allowed-global-duplicate-key.md)
+
+## Extension Resolution Options
+
+* [overrideVerificationMethodTypePolicy](error-codes/not-allowed-verification-method-type.md)
+* [overrideKeyTypePolicy](error-codes/not-allowed-key-type.md)
+* [overrideMethodPolicy](error-codes/not-allowed-method.md)
+* [overrideUntrustedCaPolicy](error-codes/not-allowed-untrusted-ca.md)
+* [overrideLocalDuplicateKeyPolicy](error-codes/not-allowed-local-duplicate-key.md)
+* [overrideLocalDerivedKeyPolicy](error-codes/not-allowed-local-derived-key.md)
+* [overrideGlobalDuplicateKeyPolicy](error-codes/not-allowed-global-duplicate-key.md)
 
 ## Contribute
 

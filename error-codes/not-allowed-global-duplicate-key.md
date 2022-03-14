@@ -1,4 +1,4 @@
-# Extension Error Code: `notAllowedVerificationMethodType`
+# Extension Error Code: `notAllowedGlobalDuplicateKey`
 
 This specification defines a new error code, to be included in the [DID Spec Registries](https://w3c.github.io/did-spec-registries/).
 
@@ -8,12 +8,12 @@ Work-in-progress
 
 ## Syntax
 
-The error code is `notAllowedVerificationMethodType`.
+The error code is `notAllowedGlobalDuplicateKey`.
 
 ## Definition
 
-This DID Resolution error code is used to indicate that a security policy has been triggered, and the DID document
-contains a verification method with a type that is not allowed.
+This DID Resolution error code is used to indicate that a security policy has been triggered, and duplicate keys
+have been detected between the DID document and other globally known DID documents.
 
 The DID Resolution Metadata MAY include additional information about why the security policy has been triggered.
 
@@ -24,13 +24,13 @@ The DID Resolution Metadata MAY include additional information about why the sec
 	"@context": "https://w3id.org/did-resolution/v1",
 	"didDocument": null,
 	"didResolutionMetadata": {
-		"error": "notAllowedVerificationMethodType"
+		"error": "notAllowedGlobalDuplicateKey"
 	},
 	"didDocumentMetadata": {}
 }
 ```
 
-# DID Resolution Option: `overrideVerificationMethodTypePolicy`
+# DID Resolution Option: `overrideGlobalDuplicateKeyPolicy`
 
 This specification also defines a new DID Resolution Option.
 
@@ -40,7 +40,7 @@ This DID Resolution Option can be used by a client to override the behavior of t
 
 Possible values:
 
-* `error`: A DID Resolution Result with error `notAllowedVerificationMethodType` is returned if the security policy is triggered.
+* `error`: A DID Resolution Result with error `notAllowedGlobalDuplicateKey` is returned if the security policy is triggered.
 * `warn`: A normal DID Resolution Result is returned, but a warning is included in the `didResolutionMetadata` field.
 * `ignore`: The security policy is ignored, and a normal DID Resolution Result is returned.
 
