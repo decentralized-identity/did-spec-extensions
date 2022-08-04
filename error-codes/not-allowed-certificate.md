@@ -1,4 +1,4 @@
-# Extension Error Code: `notAllowedUntrustedCa`
+# Extension Error Code: `notAllowedCertificate`
 
 This specification defines a new error code, to be included in the [DID Spec Registries](https://w3c.github.io/did-spec-registries/).
 
@@ -8,7 +8,7 @@ Work-in-progress
 
 ## Syntax
 
-The error code is `notAllowedUntrustedCa`.
+The error code is `notAllowedCertificate`.
 
 ## Definition
 
@@ -24,13 +24,13 @@ The DID Resolution Metadata MAY include additional information about why the sec
 	"@context": "https://w3id.org/did-resolution/v1",
 	"didDocument": null,
 	"didResolutionMetadata": {
-		"error": "notAllowedUntrustedCa"
+		"error": "notAllowedCertificate"
 	},
 	"didDocumentMetadata": {}
 }
 ```
 
-# DID Resolution Option: `overrideUntrustedCaPolicy`
+# DID Resolution Option: `overrideCertificatePolicy`
 
 This specification also defines a new DID Resolution Option.
 
@@ -40,7 +40,7 @@ This DID Resolution Option can be used by a client to override the behavior of t
 
 Possible values:
 
-* `error`: A DID Resolution Result with error `notAllowedUntrustedCa` is returned if the security policy is triggered.
+* `error`: A DID Resolution Result with error `notAllowedCertificate` is returned if the security policy is triggered.
 * `warn`: A normal DID Resolution Result is returned, but a warning is included in the `didResolutionMetadata` field.
 * `ignore`: The security policy is ignored, and a normal DID Resolution Result is returned.
 
