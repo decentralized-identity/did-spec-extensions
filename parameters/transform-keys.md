@@ -20,6 +20,7 @@ TODO
 ## Examples
 
  * `did:example:123?transformKeys=JsonWebKey2020`
+ * `did:example:123?transformKeys=MultiKey`
  * `did:example:123?transformKeys=jwk`
  * `did:example:123?transformKeys=jwks`
  * `did:example:123?transformKeys=jwk#keys-1`
@@ -27,7 +28,9 @@ TODO
 To get a DID document with verification methods transformed to **JsonWebKey2020**:
 
 ```
-curl -H "Accept: application/did+ld+json" -X GET "https://resolver.svip.danubetech.com/1.0/identifiers/did:sov:WRfXPg8dantKVubE3HX8pw?transformKeys=JsonWebKey2020"
+curl -H "Authorization: Bearer b082c420-df67-4b06-899c-b7c51d75fba0" \
+     -H "Accept: application/did+ld+json" \
+     -X GET "https://api.godiddy.com/0.1.0/universal-resolver/identifiers/did:indy:sovrin:WRfXPg8dantKVubE3HX8pw?transformKeys=JsonWebKey2020"
 ```
 
 Example DID document with verification methods transformed to **JsonWebKey2020**:
