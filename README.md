@@ -17,11 +17,12 @@ which is a document maintained by the W3C DID Working Group.
  * [transformKeys](parameters/transform-keys.md)
  * [derivationScheme, derivationValue](parameters/derivation-scheme-derivation-value.md)
  * [signedIetfJsonPatch](parameters/signed-ietf-json-patch.md)
+ * [requiredVerificationRelationship](parameters/required-verification-relationship.md)
  * (add here)
 
 ## Extension Metadata Properties
 
-* [initialState](metadata-properties/initial-state.md)
+* (add here)
 
 ## Extension Errors
 
@@ -32,6 +33,7 @@ which is a document maintained by the W3C DID Working Group.
 * [notAllowedLocalDuplicateKey](error-codes/not-allowed-local-duplicate-key.md)
 * [notAllowedLocalDerivedKey](error-codes/not-allowed-local-derived-key.md)
 * [notAllowedGlobalDuplicateKey](error-codes/not-allowed-global-duplicate-key.md)
+* [notAllowedVerificationRelationship](error-codes/not-allowed-verification-relationship.md)
 
 ## Extension Resolution Options
 
