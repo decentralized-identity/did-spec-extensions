@@ -26,10 +26,12 @@ which is a document maintained by the W3C DID Working Group.
 
 ## Extension Errors
 
+* [invalidDidDocument](error-codes/invalid-did-document.md)
+* [notAllowedDns](error-codes/not-allowed-dns.md)
+* [notAllowedCertificate](error-codes/not-allowed-certificate.md)
 * [notAllowedVerificationMethodType](error-codes/not-allowed-verification-method-type.md)
 * [notAllowedKeyType](error-codes/not-allowed-key-type.md)
 * [notAllowedMethod](error-codes/not-allowed-method.md)
-* [notAllowedCertificate](error-codes/not-allowed-certificate.md)
 * [notAllowedLocalDuplicateKey](error-codes/not-allowed-local-duplicate-key.md)
 * [notAllowedLocalDerivedKey](error-codes/not-allowed-local-derived-key.md)
 * [notAllowedGlobalDuplicateKey](error-codes/not-allowed-global-duplicate-key.md)
@@ -37,10 +39,12 @@ which is a document maintained by the W3C DID Working Group.
 
 ## Extension Resolution Options
 
+* [checkValidDidDocument](error-codes/invalid-did-document.md)
+* [checkDns](error-codes/not-allowed-dns.md)
+* [checkCertificate](error-codes/not-allowed-certificate.md)
 * [overrideVerificationMethodTypePolicy](error-codes/not-allowed-verification-method-type.md)
 * [overrideKeyTypePolicy](error-codes/not-allowed-key-type.md)
 * [overrideMethodPolicy](error-codes/not-allowed-method.md)
-* [overrideCertificatePolicy](error-codes/not-allowed-certificate.md)
 * [overrideLocalDuplicateKeyPolicy](error-codes/not-allowed-local-duplicate-key.md)
 * [overrideLocalDerivedKeyPolicy](error-codes/not-allowed-local-derived-key.md)
 * [overrideGlobalDuplicateKeyPolicy](error-codes/not-allowed-global-duplicate-key.md)
