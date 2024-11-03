@@ -27,27 +27,28 @@ which is a document maintained by the W3C DID Working Group.
 ## Extension Errors
 
 * [invalidDidDocument](error-codes/invalid-did-document.md)
+* [notAllowedMethod](error-codes/not-allowed-method.md)
+* [notAllowedKeyType](error-codes/not-allowed-key-type.md)
+* [notAllowedVerificationMethodType](error-codes/not-allowed-verification-method-type.md)
+* [notAllowedLocalDerivedKey](error-codes/not-allowed-local-derived-key.md)
+* [notAllowedLocalDuplicateKey](error-codes/not-allowed-local-duplicate-key.md)
+* [notAllowedGlobalDuplicateKey](error-codes/not-allowed-global-duplicate-key.md)
 * [notAllowedDns](error-codes/not-allowed-dns.md)
 * [notAllowedCertificate](error-codes/not-allowed-certificate.md)
-* [notAllowedVerificationMethodType](error-codes/not-allowed-verification-method-type.md)
-* [notAllowedKeyType](error-codes/not-allowed-key-type.md)
-* [notAllowedMethod](error-codes/not-allowed-method.md)
-* [notAllowedLocalDuplicateKey](error-codes/not-allowed-local-duplicate-key.md)
-* [notAllowedLocalDerivedKey](error-codes/not-allowed-local-derived-key.md)
-* [notAllowedGlobalDuplicateKey](error-codes/not-allowed-global-duplicate-key.md)
-* [notAllowedVerificationRelationship](error-codes/not-allowed-verification-relationship.md)
+* [invalidVerificationRelationship](error-codes/invalid-verification-relationship.md)
 
 ## Extension Resolution Options
 
 * [checkValidDidDocument](error-codes/invalid-did-document.md)
+* [checkMethod](error-codes/not-allowed-method.md)
+* [checkKeyType](error-codes/not-allowed-key-type.md)
+* [checkVerificationMethodType](error-codes/not-allowed-verification-method-type.md)
+* [checkLocalDerivedKey](error-codes/not-allowed-local-derived-key.md)
+* [checkLocalDuplicateKey](error-codes/not-allowed-local-duplicate-key.md)
+* [checkGlobalDuplicateKey](error-codes/not-allowed-global-duplicate-key.md)
+* [checkVerificationRelationship](error-codes/not-allowed-verification-relationship.md)
 * [checkDns](error-codes/not-allowed-dns.md)
 * [checkCertificate](error-codes/not-allowed-certificate.md)
-* [overrideVerificationMethodTypePolicy](error-codes/not-allowed-verification-method-type.md)
-* [overrideKeyTypePolicy](error-codes/not-allowed-key-type.md)
-* [overrideMethodPolicy](error-codes/not-allowed-method.md)
-* [overrideLocalDuplicateKeyPolicy](error-codes/not-allowed-local-duplicate-key.md)
-* [overrideLocalDerivedKeyPolicy](error-codes/not-allowed-local-derived-key.md)
-* [overrideGlobalDuplicateKeyPolicy](error-codes/not-allowed-global-duplicate-key.md)
 
 ## Contribute
 
