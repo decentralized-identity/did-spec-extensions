@@ -30,7 +30,7 @@ The DID Resolution Metadata MAY include additional information about why the sec
 }
 ```
 
-# DID Resolution Option: `overrideVerificationMethodTypePolicy`
+# DID Resolution Option: `checkVerificationMethodType`
 
 This specification also defines a new DID Resolution Option.
 

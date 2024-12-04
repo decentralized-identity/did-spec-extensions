@@ -30,7 +30,7 @@ The DID Resolution Metadata MAY include additional information about why the sec
 }
 ```
 
-# DID Resolution Option: `overrideGlobalDuplicateKeyPolicy`
+# DID Resolution Option: `checkGlobalDuplicateKey`
 
 This specification also defines a new DID Resolution Option.
 

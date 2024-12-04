@@ -30,7 +30,7 @@ The DID Resolution Metadata MAY include additional information about why the sec
 }
 ```
 
-# DID Resolution Option: `overrideKeyTypePolicy`
+# DID Resolution Option: `checkKeyType`
 
 This specification also defines a new DID Resolution Option.
 
